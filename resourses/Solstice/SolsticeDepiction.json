@@ -1,0 +1,67 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeHeader.png",
+  "tintColor": "#3187F9",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Solstice +",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "spacing": 10,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot1",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot2.png"
+            },
+            {
+              "accessibilityText": "Screenshot3",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot3.png"
+            },
+            {
+              "accessibilityText": "Screenshot4",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot4.png"
+            },
+            {
+              "accessibilityText": "Screenshot5",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot5.png"
+            }
+          ],
+          "itemSize": "{160, 300}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+
+        {
+          "class": "DepictionSeparatorView"
+        },
+
+        {
+          "markdown": "- 2200 icons\n- 50 Alt icons\n- Settings icons\n- Folder effect\n- Notification Badges ",
+          "class": "DepictionMarkdownView",
+          "UseBoldText": true
+        }
+      ]
+    }
+  ]
+}
