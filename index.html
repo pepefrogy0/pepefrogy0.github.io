@@ -13,12 +13,14 @@
         background-color: #16161f;
         color: white;
       }
+
       .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 30px;
       }
+
       .link {
         display: flex;
         flex-direction: column;
@@ -26,7 +28,33 @@
         justify-content: center;
         margin: 20px;
         width: 200px;
+        opacity: 0;
+        transform: translateY(50px);
+        animation: slideUp 0.7s ease-out forwards;
+
       }
+      .link:nth-child(1) {
+        animation-delay: 0.2s;
+      }
+      .link:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+      .link:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+
+      @keyframes slideUp {
+        to {
+          opacity: 1;
+          transform: translateY(0px);
+        }
+      }
+      @keyframes hint {
+        to {
+          opacity: 1;
+        }
+      }
+
       .icon {
         width: 50px;
         height: 50px;
@@ -34,50 +62,49 @@
         border-radius: 20%;
       }
 
+
       .description {
         margin-top: -10px;
         color: #505057;
         font-size: 10px;
       }
+
       .hint {
-        margin-top: 250px;
+        margin-top: 200px;
         color: #6b6868;
         font-size: 9px;
+        opacity: 0;
+        animation: hint 1s ease-in-out forwards;
+        animation-delay: 0.7s;
       }
-      
+
       .h1 {
         font-weight: lighter;
       }
-
     </style>
   </head>
   <body>
-
     <h1 class="h1">Repository</h1>
-    <div class="container"> 
+    <div class="container">
       <div class="link">
         <a href="sileo://source/https://pepefrogy0.github.io">
           <img class="icon" src="resourses/SileoIcon.png" alt="add Sileo">
         </a>
         <p class="description">Sileo</p>
-        
-        <div class="link">  
-          <a href="zbra://source/add/https://pepefrogy0.github.io">
-            <img class="icon" src="resourses/ZebraIcon.png" alt="add Sileo">
-          </a>
-          <p class="description">Zebra</p>
-          
-          <div class="link">
-            <a href="apt-repo://pepefrogy0.github.io">
-              <img class="icon" src="//raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/SailyIcon.png" alt="add Saily">
-            </a>
-            <p class="description">Saily</p>
-
-
-          
-    <p class="hint">Click the icon to add a repository</p>
-
-    
+      </div>
+      <div class="link">
+        <a href="zbra://source/add/https://pepefrogy0.github.io">
+          <img class="icon" src="resourses/ZebraIcon.png" alt="add Zebra">
+        </a>
+        <p class="description">Zebra</p>
+      </div>
+      <div class="link">
+        <a href="apt-repo://pepefrogy0.github.io">
+          <img class="icon" src="//raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/SailyIcon.png" alt="add Saily">
+        </a>
+        <p class="description">Saily</p>
+      </div>
     </div>
+    <p class="hint">Click the icon to add a repository</p>
   </body>
 </html>
