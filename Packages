@@ -1,12 +1,12 @@
-Package: com.frog.saily-localization
+Package: com.frog.saily.localization
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: Frog
-Filename: debs/com.frog.saily-localization_1.3_iphoneos-arm64.deb
-Size: 6676
-MD5sum: 7e80438c38e26b9d46565333a210b93b
-SHA1: 235a385900f89e0b48ee80ba41bf8da796ba2770
-SHA256: ef94f337e705dc54ced76e9f1c109daab7d54198c75450ebb75ef462edfe97c9
+Filename: debs/com.frog.saily.localization_1.3_iphoneos-arm64.deb
+Size: 6982
+MD5sum: e38ec5e122ab7997cf11ec5b58feccfc
+SHA1: 2fa10749897efaf9cbe84d98f28144efa5c3eac6
+SHA256: f5b226b2dab59e0f924aaad5504cb3780302eb160647cb01b2e4a96c14fe2683
 Section: Localization
 Description: Руссификатор для пакетного менеджера Saily!
 Author: Frog
