@@ -1,0 +1,67 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/SailyHeader.png",
+  "tintColor": "#56B5F1",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Saily Localization",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "spacing": 10,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot1",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/Screenshots/Screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/Screenshots/Screenshot2.png"
+            },
+            {
+              "accessibilityText": "Screenshot3",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/Screenshots/Screenshot3.png"
+            },
+            {
+              "accessibilityText": "Screenshot4",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/Screenshots/Screenshot4.png"
+            },
+            {
+              "accessibilityText": "Screenshot5",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/Screenshots/Screenshot5.png"
+            }
+          ],
+          "itemSize": "{160, 300}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+
+        {
+          "class": "DepictionSeparatorView"
+        },
+
+        {
+          "markdown": "RU Localization for packet manager Saily\n- Adapted more than 150 elements",
+          "class": "DepictionMarkdownView",
+          "UseBoldText": true
+        }
+      ]
+    }
+  ]
+}
