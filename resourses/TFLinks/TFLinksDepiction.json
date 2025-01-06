@@ -1,0 +1,107 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksHeader.png",
+  "tintColor": "#56B5F1",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "TFLinks app",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot1",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot1.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot2.png"
+            }
+          ],
+          "itemSize": "{160, 300}",
+          "itemCornerRadius": 16
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 5
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so"
+        },
+        {
+          "class":"DepictionSeparatorView"
+        },
+
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Author",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class":"DepictionSpacerView",
+          "spacing": 6
+        },
+        {
+          
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "xPadding": 15,
+          "views": [
+            {
+              "class": "DepictionLayerView",
+              "views": [
+
+                {
+                  "class": "DepictionSpacerView",
+                  "spacing": 32
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "Alwwwd",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "margins": "{2, 32, 2, 15}"
+                },
+                {
+                  "class": "DepictionImageView",
+                  "URL": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Authors/alwwwd.png",
+                  "width": 24,
+                  "height": 24,
+                  "cornerRadius": 12
+                }
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

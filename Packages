@@ -1,3 +1,35 @@
+Package: com.alwwwd.tflinks.rootfull
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: TFLinks
+Filename: debs/com.alwwwd.tflinks.rootfull_1.1.1_iphoneos-arm.deb
+Size: 6809966
+MD5sum: 5e7266500ac9e5166ebfba0591e15904
+SHA1: bfbcd4cf9e9222985336ae1fe16d59450d024f52
+SHA256: bca24d022427c15d51c848d54a37a91edfbb0c2b067472108a9c7dabbea33e7d
+Section: Localization
+Description: TFLinks App
+Author: TFLinks
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
+Name: TFLinks Rootfull
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+
+Package: com.alwwwd.tflinks.rootless
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: TFLinks
+Filename: debs/com.alwwwd.tflinks.rootless_1.1.1_iphoneos-arm64.deb
+Size: 6809826
+MD5sum: 79ca84fdb5af4f2fac7b981fb82233d2
+SHA1: 5ff9018adf1577a945abf39bb5af38acb31abed6
+SHA256: 0f7f9bbac65a2cb17963b22af28520cbd365b00790fb426f240c020f6bc70334
+Section: Localization
+Description: TFLinks App
+Author: TFLinks
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
+Name: TFLinks Rootless
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+
 Package: com.frog.saily.localization
 Version: 1.3
 Architecture: iphoneos-arm64
