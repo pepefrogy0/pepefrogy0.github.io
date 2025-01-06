@@ -3,11 +3,11 @@ Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: TFLinks
 Filename: debs/com.alwwwd.tflinks.rootfull_1.1.1_iphoneos-arm.deb
-Size: 6809966
-MD5sum: 5e7266500ac9e5166ebfba0591e15904
-SHA1: bfbcd4cf9e9222985336ae1fe16d59450d024f52
-SHA256: bca24d022427c15d51c848d54a37a91edfbb0c2b067472108a9c7dabbea33e7d
-Section: Localization
+Size: 6809962
+MD5sum: 2d96ac147bd048b7eacedcc3bb59e2a9
+SHA1: e1d80646248dc1c2df9be40d51e75f822418dc4e
+SHA256: c1b55c381214f3ca8c0c453dca557aeaea96ec17afa2d8c36b31cbd763b5b014
+Section: Application
 Description: TFLinks App
 Author: TFLinks
 Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
@@ -20,10 +20,10 @@ Architecture: iphoneos-arm64
 Maintainer: TFLinks
 Filename: debs/com.alwwwd.tflinks.rootless_1.1.1_iphoneos-arm64.deb
 Size: 6809826
-MD5sum: 79ca84fdb5af4f2fac7b981fb82233d2
-SHA1: 5ff9018adf1577a945abf39bb5af38acb31abed6
-SHA256: 0f7f9bbac65a2cb17963b22af28520cbd365b00790fb426f240c020f6bc70334
-Section: Localization
+MD5sum: 1783cc09f541d658774a57a277a1378e
+SHA1: 48e13264d5e6daa897b4bc7f291c047e27a604da
+SHA256: 1ff2914a6b5ea9291d036d90ca27a411dbde2021a9d80a1cee7881e429f06123
+Section: Application
 Description: TFLinks App
 Author: TFLinks
 Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
