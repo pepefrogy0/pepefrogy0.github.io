@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so\n- [Support](t.me/tflinks_support)\n- [Channel](t.me/TFLinks_app)"
+          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so"
         },
         {
           "class":"DepictionSeparatorView"
@@ -107,7 +107,20 @@
                   "width": 24,
                   "height": 24,
                   "cornerRadius": 12
-                }
+                },
+        {
+          "class": "DepictionButtonView",
+          "action": "t.me/tflinks_support",
+          "openExternal": true,
+          "isLink": true,
+          "view": {
+            "class": "DepictionLabelView",
+            "text": "Telegram Support",
+            "fontSize": 11,
+            "margins": "{4, 15, 10, 15}"
+          }
+
+        }
 
               ]
             }
