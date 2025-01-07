@@ -28,6 +28,18 @@
             {
               "accessibilityText": "Screenshot2",
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot2.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot3.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot4.png"
+            },
+            {
+              "accessibilityText": "Screenshot2",
+              "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot5.png"
             }
           ],
           "itemSize": "{160, 300}",
@@ -52,7 +64,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so"
+          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so\n- [Support](t.me/tflinks_support)\n- [Channel](t.me/TFLinks_app)"
         },
         {
           "class":"DepictionSeparatorView"
