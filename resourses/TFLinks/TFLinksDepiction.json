@@ -108,24 +108,28 @@
                   "height": 24,
                   "cornerRadius": 12
                 },
-        {
-          "class": "DepictionButtonView",
-          "action": "t.me/tflinks_support",
-          "openExternal": true,
-          "isLink": true,
-          "view": {
-            "class": "DepictionLabelView",
-            "text": "Telegram Support",
-            "fontSize": 11,
-            "margins": "{4, 15, 10, 15}"
-          }
+                {
+                  "class": "DepictionButtonView",
+                  "action": "https://t.me/tflinks_support",
+                  "openExternal": true,
+                  "isLink": true,
+                  "view": {
+                    "class": "DepictionLabelView",
+                    "text": "Telegram Support",
+                    "fontSize": 11,
+                    "margins": "{25, 0, 10, 15}"
+                  }
+        
+                }
 
-        }
+
 
               ]
+
             }
           ]
         }
+      
       ]
     }
   ]
