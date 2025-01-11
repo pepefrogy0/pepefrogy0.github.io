@@ -106,7 +106,7 @@
                     "class": "DepictionLabelView",
                     "text": "Telegram Support",
                     "fontSize": 12,
-                    "margins": "{25. 32, 10, 15}"
+                    "margins": "{25, 32, 10, 15}"
                   }
                 }
               ]
