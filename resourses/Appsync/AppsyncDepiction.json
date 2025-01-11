@@ -1,0 +1,82 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncHeader.png",
+  "tintColor": "#3187F9",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Appsync",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 6
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 4
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<style>ul{list-style-type:disc}body{font:-apple-system-body;line-height:1.4}p,h1,h2,h3,h4,h5,h6,ol,ul{margin:0 0 1rem 0}</style><p><strong>AppSync Unified</strong> is a tweak that allows users to freely install ad-hoc signed, fakesigned, unsigned, or expired IPA app packages on their iOS devices that iOS would otherwise consider invalid.</p>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Author",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "xPadding": 15,
+          "views": [
+            {
+              "class": "DepictionLayerView",
+              "views": [
+                {
+                  "class": "DepictionSpacerView",
+                  "spacing": 32
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "Karen",
+                  "fontSize": 14,
+                  "fontWeight": "semibold",
+                  "margins": "{2, 32, 2, 15}"
+                },
+                {
+                  "class": "DepictionImageView",
+                  "URL": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Authors/karen.png",
+                  "width": 24,
+                  "height": 24,
+                  "cornerRadius": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

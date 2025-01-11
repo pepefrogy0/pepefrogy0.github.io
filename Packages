@@ -1,34 +1,43 @@
-Package: com.alwwwd.tflinks.rootfull
-Version: 1.1.1
-Architecture: iphoneos-arm
-Maintainer: TFLinks
-Filename: debs/com.alwwwd.tflinks.rootfull_1.1.1_iphoneos-arm.deb
-Size: 6809962
-MD5sum: 2d96ac147bd048b7eacedcc3bb59e2a9
-SHA1: e1d80646248dc1c2df9be40d51e75f822418dc4e
-SHA256: c1b55c381214f3ca8c0c453dca557aeaea96ec17afa2d8c36b31cbd763b5b014
-Section: Application
-Description: TFLinks App
-Author: TFLinks
-Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
-Name: TFLinks Rootfull
-Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
-
-Package: com.alwwwd.tflinks.rootless
-Version: 1.1.1
+Package: ai.akemi.appsyncunified
+Version: 112.0
 Architecture: iphoneos-arm64
-Maintainer: TFLinks
-Filename: debs/com.alwwwd.tflinks.rootless_1.1.1_iphoneos-arm64.deb
-Size: 6809826
-MD5sum: 1783cc09f541d658774a57a277a1378e
-SHA1: 48e13264d5e6daa897b4bc7f291c047e27a604da
-SHA256: 1ff2914a6b5ea9291d036d90ca27a411dbde2021a9d80a1cee7881e429f06123
-Section: Application
-Description: TFLinks App
-Author: TFLinks
-Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
-Name: TFLinks Rootless
-Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
+Size: 36376
+MD5sum: 2f7b8ee04034d4508ff00472708b844e
+SHA1: 6ce5d90ad7e19c16900505c7cc73cacff783d0fc
+SHA256: 5ffb84441c1d1cc6f7f8bfac636740490494b001193fd1bcf31eb3cba8f1022c
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncIcon.png
+Name: AppSync Unified
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncDepiction.json
+
+Package: ai.akemi.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_112.0_iphoneos-arm.deb
+Size: 39446
+MD5sum: 7521a6c7cee98b27f8177fa1757ca492
+SHA1: 4ce18e9b14abc4990a71cd8ae2e609ac85312f94
+SHA256: 685570baa73a471d0da26da14078d5461f171e7d64857693ceece9d74fc0bfb7
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncIcon.png
+Name: AppSync Unified
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncDepiction.json
 
 Package: com.frog.saily.localization
 Version: 1.3
@@ -46,35 +55,71 @@ Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/hea
 Name: Saily (Rootless) RU
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Saily/SailyDepiction.json
 
-Package: com.frog.solstice.rootfull
-Version: 1.4
-Architecture: iphoneos-arm
-Maintainer: Frog
-Filename: debs/com.frog.solstice.rootfull_1.4_iphoneos-arm.deb
-Size: 43286260
-MD5sum: 377a0f1213305a6085930cdd6856d1ff
-SHA1: 39015c971353ec25cb887e3444e326fd11330d86
-SHA256: 160d0e23afb0d024b5926697351173d3065bdadf005d2dfdf1f3952b4732d13b
-Section: Themes
-Description: Темные иконки как в ios 18!
-Author: Frog
-Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
-Name: Solstice Rootfull
-Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
-
-Package: com.frog.solstice.rootless
+Package: com.frog.solstice
 Version: 1.4
 Architecture: iphoneos-arm64
 Maintainer: Frog
-Filename: debs/com.frog.solstice.rootless_1.4_iphoneos-arm64.deb
-Size: 43285748
-MD5sum: b264afe7d785ed33e985213241c6efd7
-SHA1: 0c914268d105ba909689ad06d3f3dadeb2ff8ec9
-SHA256: 0aa354aac805e6f3a4d3420ce3604eea9810e902428b8ddb87e72ada2443f96f
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.4_iphoneos-arm64.deb
+Size: 43246516
+MD5sum: b0ef1908eb9a905a60f95902446d35a8
+SHA1: 836f815b366f9fe517ba4d1372f6a945a8e88cf5
+SHA256: 95682627a5dd16984c9526b0310b5be8739adc2fdc7a448c563940e2799dc361
 Section: Themes
 Description: Темные иконки как в ios 18!
 Author: Frog
 Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
-Name: Solstice Rootless
+Name: Solstice
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootfull
+Filename: debs/com.frog.solstice_1.4_iphoneos-arm.deb
+Size: 43243482
+MD5sum: b948f4319d92c4c59cb5fbd21c4b6197
+SHA1: 9f33ba28f701a86157f0166e039e5ef4f0b7e839
+SHA256: 6caa3951ed6f4f702b42552c30907da85a78f6b76608981b1064f07c066a0bd9
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: org.tflinks.app
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: TFLinks
+Conflicts: com.alwwwd.tflinks.rootfull
+Filename: debs/org.tflinks.app_1.1.1_iphoneos-arm.deb
+Size: 6809972
+MD5sum: 442e8ff4e7ad05b552bf4e1712938794
+SHA1: ad8af48d307299ec42d378c292e0b764e344ce10
+SHA256: 1215a3eeccaa676dcd3e6eb1f3f1e5829618120c9a8846a315490d97b2bd875b
+Section: Application
+Description: TFLinks App
+Author: TFLinks
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
+Name: TFLinks
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+
+Package: org.tflinks.app
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: TFLinks
+Conflicts: com.alwwwd.tflinks.rootless
+Filename: debs/org.tflinks.app_1.1.1_iphoneos-arm64.deb
+Size: 6809842
+MD5sum: c1dee3a0dc8828bc9959e9e3ed0b0c53
+SHA1: 075d46a5c9e84f84710e1fcbc87cf9502ab4e163
+SHA256: f32232e9c64a67e6ef7c410cdd4aaad859107b890902873a55a71f18a0690d00
+Section: Application
+Description: TFLinks App
+Author: TFLinks
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
+Name: TFLinks
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
 

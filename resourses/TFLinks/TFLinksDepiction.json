@@ -10,16 +10,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "TFLinks app",
-          "useBoldText": true,
-          "useBottomMargin": true
+          "title": "TFLinks App",
+          "useBoldText": true
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 10
+          "spacing": 6
         },
         {
           "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 14,
+          "itemSize": "{160, 346}",
           "screenshots": [
             {
               "accessibilityText": "Screenshot1",
@@ -30,46 +31,40 @@
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot2.png"
             },
             {
-              "accessibilityText": "Screenshot2",
+              "accessibilityText": "Screenshot3",
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot3.png"
             },
             {
-              "accessibilityText": "Screenshot2",
+              "accessibilityText": "Screenshot4",
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot4.png"
             },
             {
-              "accessibilityText": "Screenshot2",
+              "accessibilityText": "Screenshot5",
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/Screenshots/Screenshot5.png"
             }
-          ],
-          "itemSize": "{160, 300}",
-          "itemCornerRadius": 16
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 10
+          ]
         },
         {
           "class": "DepictionSubheaderView",
           "title": "Description",
           "useBoldText": true,
-          "useBottomMargin": true
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 4
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionSpacerView",
-          "spacing": 5
-        },
-        {
           "class": "DepictionMarkdownView",
-          "markdown": "A new way to find, install and manage test versions of applications in TestFlight.\n- TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so"
+          "markdown": "<style>ul{list-style-type:disc}body{font:-apple-system-body;line-height:1.4}p,h1,h2,h3,h4,h5,h6,ol,ul{margin:0 0 1rem 0}</style><p>A new way to find, install and manage test versions of applications in TestFlight</p><TFLinks is designed to help users easily find the latest test applications, while providing a user-friendly GUI for doing so>",
+          "useRawFormat": true
         },
         {
-          "class":"DepictionSeparatorView"
+          "class": "DepictionSeparatorView"
         },
-
         {
           "class": "DepictionSubheaderView",
           "title": "Author",
@@ -77,11 +72,6 @@
           "useBottomMargin": false
         },
         {
-          "class":"DepictionSpacerView",
-          "spacing": 6
-        },
-        {
-          
           "class": "DepictionStackView",
           "orientation": "landscape",
           "xPadding": 15,
@@ -89,16 +79,15 @@
             {
               "class": "DepictionLayerView",
               "views": [
-
                 {
                   "class": "DepictionSpacerView",
                   "spacing": 32
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "Alwwwd",
+                  "text": "alwwwd",
                   "fontSize": 14,
-                  "fontWeight": "bold",
+                  "fontWeight": "semibold",
                   "margins": "{2, 32, 2, 15}"
                 },
                 {
@@ -116,20 +105,14 @@
                   "view": {
                     "class": "DepictionLabelView",
                     "text": "Telegram Support",
-                    "fontSize": 11,
-                    "margins": "{25, 0, 10, 15}"
+                    "fontSize": 12,
+                    "margins": "{25. 32, 10, 15}"
                   }
-        
                 }
-
-
-
               ]
-
             }
           ]
         }
-      
       ]
     }
   ]

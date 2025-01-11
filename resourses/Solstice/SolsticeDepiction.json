@@ -11,14 +11,16 @@
         {
           "class": "DepictionSubheaderView",
           "title": "Solstice +",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "useBoldText": true
         },
         {
-          "spacing": 10,
-          "class": "DepictionSpacerView"
+          "class": "DepictionSpacerView",
+          "spacing": 6
         },
         {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 14,
+          "itemSize": "{160, 346}",
           "screenshots": [
             {
               "accessibilityText": "Screenshot1",
@@ -40,10 +42,7 @@
               "accessibilityText": "Screenshot5",
               "url": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/Screenshots/Screenshot5.png"
             }
-          ],
-          "itemSize": "{160, 300}",
-          "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 16
+          ]
         },
         {
           "class": "DepictionSubheaderView",
@@ -51,15 +50,55 @@
           "useBoldText": true,
           "useBottomMargin": false
         },
-
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 4
+        },
         {
           "class": "DepictionSeparatorView"
         },
-
         {
-          "markdown": "- 2200 icons\n- 50 Alt icons\n- Settings icons\n- Folder effect\n- Notification Badges ",
           "class": "DepictionMarkdownView",
-          "UseBoldText": true
+          "markdown": "<style>ul{list-style-type:disc}body{font:-apple-system-body;line-height:1.4}p,h1,h2,h3,h4,h5,h6,ol,ul{margin:0 0 1rem 0}</style><ul><li>2200 icons</li><li>50 Alt icons</li><li>Settings icons</li><li>Folder effect</li> <li>Notification Badges</li>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Author",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "xPadding": 15,
+          "views": [
+            {
+              "class": "DepictionLayerView",
+              "views": [
+                {
+                  "class": "DepictionSpacerView",
+                  "spacing": 32
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "Frog",
+                  "fontSize": 14,
+                  "fontWeight": "semibold",
+                  "margins": "{2, 32, 2, 15}"
+                },
+                {
+                  "class": "DepictionImageView",
+                  "URL": "https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Authors/frog.png",
+                  "width": 24,
+                  "height": 24,
+                  "cornerRadius": 12
+                }
+              ]
+            }
+          ]
         }
       ]
     }
