@@ -57,6 +57,23 @@ Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.i
 
 Package: com.frog.solstice
 Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootfull
+Filename: debs/com.frog.solstice_1.4_iphoneos-arm.deb
+Size: 43243482
+MD5sum: b948f4319d92c4c59cb5fbd21c4b6197
+SHA1: 9f33ba28f701a86157f0166e039e5ef4f0b7e839
+SHA256: 6caa3951ed6f4f702b42552c30907da85a78f6b76608981b1064f07c066a0bd9
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.4
 Architecture: iphoneos-arm64
 Maintainer: Frog
 Conflicts: com.frog.solstice.rootless
@@ -73,15 +90,32 @@ Name: Solstice
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
 
 Package: com.frog.solstice
-Version: 1.4
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.5_iphoneos-arm64.deb
+Size: 47718558
+MD5sum: d6194bceea3b969ecdec139bee7262da
+SHA1: 00477ecdb47e635ca03b39fdf6e6ca7275775325
+SHA256: 397918fc7868109e2febd0e293196f7182e887d527e04582d58adf8316f4828f
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.5
 Architecture: iphoneos-arm
 Maintainer: Frog
 Conflicts: com.frog.solstice.rootfull
-Filename: debs/com.frog.solstice_1.4_iphoneos-arm.deb
-Size: 43243482
-MD5sum: b948f4319d92c4c59cb5fbd21c4b6197
-SHA1: 9f33ba28f701a86157f0166e039e5ef4f0b7e839
-SHA256: 6caa3951ed6f4f702b42552c30907da85a78f6b76608981b1064f07c066a0bd9
+Filename: debs/com.frog.solstice_1.5_iphoneos-arm.deb
+Size: 47718960
+MD5sum: 36b330a1b6af8a8411e1509bcffe8d91
+SHA1: b0622f8d8c72f0b090deae3c25450c26cec412e7
+SHA256: 026f178e23797a4a3535902fe5d9d2dc1b607b46451eefebf1f23ded366f4685
 Section: Themes
 Description: Темные иконки как в ios 18!
 Author: Frog
