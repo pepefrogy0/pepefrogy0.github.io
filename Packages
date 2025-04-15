@@ -157,22 +157,39 @@ Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/hea
 Name: Solstice
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
 
-Package: org.tflinks.app
-Version: 1.1.1
+Package: com.frog.solstice
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.6.1_iphoneos-arm64.deb
+Size: 51683092
+MD5sum: 165ebbb9fbfd03e46c2da214a71fc4f1
+SHA1: 1721b5219d23262f7350510fb0afd91caf52e3ca
+SHA256: fabc11dd9c35cbc899eed4959e00b670e89e5bae763218fb5ab9eef359b506bc
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.6.1
 Architecture: iphoneos-arm
-Maintainer: TFLinks
-Conflicts: com.alwwwd.tflinks.rootfull
-Filename: debs/org.tflinks.app_1.1.1_iphoneos-arm.deb
-Size: 6809972
-MD5sum: 442e8ff4e7ad05b552bf4e1712938794
-SHA1: ad8af48d307299ec42d378c292e0b764e344ce10
-SHA256: 1215a3eeccaa676dcd3e6eb1f3f1e5829618120c9a8846a315490d97b2bd875b
-Section: Application
-Description: TFLinks App
-Author: TFLinks
-Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
-Name: TFLinks
-Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.6.1_iphoneos-arm.deb
+Size: 51675298
+MD5sum: 7f7000d57d73639714bd1f1bad266ee8
+SHA1: 4e258e6660bf76880b8f89e54fdf8b4fa5cd5d08
+SHA256: f3f1d302692a56cdedfc36e150d59eb9dd2eae344bc74895a298eef6a95abc6c
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
 
 Package: org.tflinks.app
 Version: 1.1.1
@@ -184,6 +201,23 @@ Size: 6809842
 MD5sum: c1dee3a0dc8828bc9959e9e3ed0b0c53
 SHA1: 075d46a5c9e84f84710e1fcbc87cf9502ab4e163
 SHA256: f32232e9c64a67e6ef7c410cdd4aaad859107b890902873a55a71f18a0690d00
+Section: Application
+Description: TFLinks App
+Author: TFLinks
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksIcon.png
+Name: TFLinks
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/TFLinks/TFLinksDepiction.json
+
+Package: org.tflinks.app
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: TFLinks
+Conflicts: com.alwwwd.tflinks.rootfull
+Filename: debs/org.tflinks.app_1.1.1_iphoneos-arm.deb
+Size: 6809972
+MD5sum: 442e8ff4e7ad05b552bf4e1712938794
+SHA1: ad8af48d307299ec42d378c292e0b764e344ce10
+SHA256: 1215a3eeccaa676dcd3e6eb1f3f1e5829618120c9a8846a315490d97b2bd875b
 Section: Application
 Description: TFLinks App
 Author: TFLinks
