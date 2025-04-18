@@ -1,25 +1,5 @@
 Package: ai.akemi.appsyncunified
 Version: 112.0
-Architecture: iphoneos-arm64
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
-Size: 36376
-MD5sum: 2f7b8ee04034d4508ff00472708b844e
-SHA1: 6ce5d90ad7e19c16900505c7cc73cacff783d0fc
-SHA256: 5ffb84441c1d1cc6f7f8bfac636740490494b001193fd1bcf31eb3cba8f1022c
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncIcon.png
-Name: AppSync Unified
-Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncDepiction.json
-
-Package: ai.akemi.appsyncunified
-Version: 112.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 700
@@ -32,6 +12,26 @@ Size: 39446
 MD5sum: 7521a6c7cee98b27f8177fa1757ca492
 SHA1: 4ce18e9b14abc4990a71cd8ae2e609ac85312f94
 SHA256: 685570baa73a471d0da26da14078d5461f171e7d64857693ceece9d74fc0bfb7
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncIcon.png
+Name: AppSync Unified
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Appsync/AppsyncDepiction.json
+
+Package: ai.akemi.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
+Size: 36376
+MD5sum: 2f7b8ee04034d4508ff00472708b844e
+SHA1: 6ce5d90ad7e19c16900505c7cc73cacff783d0fc
+SHA256: 5ffb84441c1d1cc6f7f8bfac636740490494b001193fd1bcf31eb3cba8f1022c
 Section: Tweaks
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
@@ -91,14 +91,14 @@ Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.i
 
 Package: com.frog.solstice
 Version: 1.5
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Frog
-Conflicts: com.frog.solstice.rootless
-Filename: debs/com.frog.solstice_1.5_iphoneos-arm64.deb
-Size: 47718558
-MD5sum: d6194bceea3b969ecdec139bee7262da
-SHA1: 00477ecdb47e635ca03b39fdf6e6ca7275775325
-SHA256: 397918fc7868109e2febd0e293196f7182e887d527e04582d58adf8316f4828f
+Conflicts: com.frog.solstice.rootfull
+Filename: debs/com.frog.solstice_1.5_iphoneos-arm.deb
+Size: 47718960
+MD5sum: 36b330a1b6af8a8411e1509bcffe8d91
+SHA1: b0622f8d8c72f0b090deae3c25450c26cec412e7
+SHA256: 026f178e23797a4a3535902fe5d9d2dc1b607b46451eefebf1f23ded366f4685
 Section: Themes
 Description: Темные иконки как в ios 18!
 Author: Frog
@@ -108,14 +108,14 @@ Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.i
 
 Package: com.frog.solstice
 Version: 1.5
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Frog
-Conflicts: com.frog.solstice.rootfull
-Filename: debs/com.frog.solstice_1.5_iphoneos-arm.deb
-Size: 47718960
-MD5sum: 36b330a1b6af8a8411e1509bcffe8d91
-SHA1: b0622f8d8c72f0b090deae3c25450c26cec412e7
-SHA256: 026f178e23797a4a3535902fe5d9d2dc1b607b46451eefebf1f23ded366f4685
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.5_iphoneos-arm64.deb
+Size: 47718558
+MD5sum: d6194bceea3b969ecdec139bee7262da
+SHA1: 00477ecdb47e635ca03b39fdf6e6ca7275775325
+SHA256: 397918fc7868109e2febd0e293196f7182e887d527e04582d58adf8316f4828f
 Section: Themes
 Description: Темные иконки как в ios 18!
 Author: Frog
@@ -159,6 +159,23 @@ Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.i
 
 Package: com.frog.solstice
 Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.6.1_iphoneos-arm.deb
+Size: 51675298
+MD5sum: 7f7000d57d73639714bd1f1bad266ee8
+SHA1: 4e258e6660bf76880b8f89e54fdf8b4fa5cd5d08
+SHA256: f3f1d302692a56cdedfc36e150d59eb9dd2eae344bc74895a298eef6a95abc6c
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.6.1
 Architecture: iphoneos-arm64
 Maintainer: Frog
 Conflicts: com.frog.solstice.rootless
@@ -175,15 +192,32 @@ Name: Solstice
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
 
 Package: com.frog.solstice
-Version: 1.6.1
+Version: 1.7
 Architecture: iphoneos-arm
 Maintainer: Frog
 Conflicts: com.frog.solstice.rootless
-Filename: debs/com.frog.solstice_1.6.1_iphoneos-arm.deb
-Size: 51675298
-MD5sum: 7f7000d57d73639714bd1f1bad266ee8
-SHA1: 4e258e6660bf76880b8f89e54fdf8b4fa5cd5d08
-SHA256: f3f1d302692a56cdedfc36e150d59eb9dd2eae344bc74895a298eef6a95abc6c
+Filename: debs/com.frog.solstice_1.7_iphoneos-arm.deb
+Size: 54958190
+MD5sum: 363547d8047e351fb7a96d4b51d371ec
+SHA1: 00913092dba91bee27c5b3df922578b33d927a42
+SHA256: f67c34a36614cff045d423f6662cc1558b8eddb6be3ed0441a5c0e5d1506beb7
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_1.7_iphoneos-arm64.deb
+Size: 54959950
+MD5sum: 6a42c41a6c34d52c5a7b0d463a6c026f
+SHA1: 8058f2ff8d694bfdafaad01d187985cc3899c9d2
+SHA256: b93e225d5a74790adc3be5ddbe98a6fef49f3138f8d4e8df420c01c69ff8cb52
 Section: Themes
 Description: Темные иконки как в ios 18!
 Author: Frog
