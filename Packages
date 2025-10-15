@@ -497,6 +497,40 @@ Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/hea
 Name: Solstice
 Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
 
+Package: com.frog.solstice
+Version: 2.3.1
+Architecture: iphoneos-arm64
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_2.3.1_iphoneos-arm64.deb
+Size: 98582504
+MD5sum: e7eb55ecb7254fc7732acaccf3fb053b
+SHA1: f88fcfc529141cb8c79683afff00e9e3af50a8d6
+SHA256: 9ffc617b4d78db058688101769e7a0f89899c283b68a859e8bd2570e3473b86b
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
+Package: com.frog.solstice
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: Frog
+Conflicts: com.frog.solstice.rootless
+Filename: debs/com.frog.solstice_2.3.1_iphoneos-arm.deb
+Size: 98578424
+MD5sum: 86a30b303126d8c71de27fdd09422228
+SHA1: c05839493f19c5ade84bca4463ba7c9b9f0342ae
+SHA256: 6b6d7e559e868584cbddeefe7e83e4e9d5ddab71ff2451103fff83bfdfbffe3c
+Section: Themes
+Description: Темные иконки как в ios 18!
+Author: Frog
+Icon: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeIcon.png
+Name: Solstice
+Sileodepiction: https://raw.githubusercontent.com/pepefrogy0/pepefrogy0.github.io/refs/heads/master/resourses/Solstice/SolsticeDepiction.json
+
 Package: org.tflinks.app
 Version: 1.1.1
 Architecture: iphoneos-arm64
